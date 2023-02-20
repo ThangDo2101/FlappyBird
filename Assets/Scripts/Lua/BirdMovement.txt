@@ -1,0 +1,18 @@
+
+local velocity = 2.4
+local rigidbody2D = nil
+
+function start()
+    rigidbody2D = self:GetComponent(typeof(CS.UnityEngine.Rigidbody2D))
+end
+
+function update()
+    if (CS.UnityEngine.Input.GetMouseButtonDown(0))
+    then
+        rigidbody2D.velocity = CS.UnityEngine.Vector2.up * velocity;
+    end
+end
+
+function ondestroy()
+end
+

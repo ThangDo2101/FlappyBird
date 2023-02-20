@@ -1,0 +1,7 @@
+
+function start()
+    self:GetComponent("Button").onClick:AddListener( function()
+        CS.UnityEngine.Time.timeScale = 1;
+        CS.UnityEngine.SceneManagement.SceneManager.LoadScene("PlayScene");
+    end )
+end

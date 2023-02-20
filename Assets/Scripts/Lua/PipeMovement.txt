@@ -1,0 +1,15 @@
+
+local speed = 2
+local transform = nil
+
+function start()
+    transform = self:GetComponent(typeof(CS.UnityEngine.Transform))
+end
+
+function update()
+    transform.position = transform.position +((CS.UnityEngine.Vector3.left * speed) * CS.UnityEngine.Time.deltaTime);
+end
+
+function ondestroy()
+end
+
