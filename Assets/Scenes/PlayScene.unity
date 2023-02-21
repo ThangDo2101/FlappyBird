@@ -1470,7 +1470,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1425620743}
   - component: {fileID: 1425620744}
-  - component: {fileID: 1425620745}
   m_Layer: 0
   m_Name: PlayScene
   m_TagString: Untagged
@@ -1512,20 +1511,6 @@ MonoBehaviour:
   restartUI: {fileID: 669546122}
   CurrentScore: 0
   HighScore: 0
---- !u!114 &1425620745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1425620742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9137e0114664a74491d555ca4f63766, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  luaScript: {fileID: 4900000, guid: dbbcc20672cef754a8fc3402cdfd3eec, type: 3}
-  references: []
 --- !u!1 &1572069509
 GameObject:
   m_ObjectHideFlags: 0
